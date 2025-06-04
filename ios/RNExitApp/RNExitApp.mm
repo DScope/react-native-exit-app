@@ -2,7 +2,9 @@
 
 #import "RNExitApp.h"
 
-
+#if RCT_NEW_ARCH_ENABLED
+#import <RNExitApp/RNExitApp.h>
+#endif
 
 @implementation RNExitApp
 
